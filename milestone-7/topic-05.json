@@ -1,0 +1,8 @@
+{
+    "data": {
+        "name": "What is setInverval or setTimeOut & How it work?",
+        "checkList": ["Declare variable", "for loop, while", "template string", "spread operator", "JSON (stringify, parse)", "function return , perameter", "fetch and optional chaning", "objects declation shorthand", "destructuring object, and array", "function peramiter default value", "array of map, forEach, filter, find", "ternary operator with logical operator", "object property, includes array, objects", "use filter to remove one item of an array", "all condition => <, >, ===, !==, <=, >=, &&, ||, else if, if", "arrow function with no peramiter, single peramiter, multiple peramiter", "browser api: localStorage ans sessionStorage, location API, history API", "array => array delaray, length, index, pop, push, shift, unshift, indexOf, includes etc."],
+        "creator": "Ashaduzzaman Sojib",
+        "date": "11 March, 2023"
+    }
+}

@@ -22,6 +22,8 @@ const detailsDisplay = details =>{
     // console.log(details)
     const container = document.getElementById("milestone-content");
     container.textContent = '';
+    const list = details.checkList;
+    const checkList = list?.map(list => `<li class="py-2"><i class="fa-solid fa-share"></i> ${list}</li>`).join(' ');
     const {creator, date, name, describe, info} = details;
     container.innerHTML += `
     <div class="flex justify-between p-2">
@@ -30,10 +32,11 @@ const detailsDisplay = details =>{
     </div>
     <hr>
     <div class="p-2">
-    <h2 class="sidebar-title">${name}</h2>
-    <p>${info}</p>
+    <h2 class="sidebar-title">${name ? name : ''}</h2>
+    <p>${info ? info : ''}</p>
+    <ol>${checkList ?checkList : ''}</ol>
     </br>
-    <p>${describe}</p>
+    <p>${describe ? describe : ''}</p>
     </div>
     `;
 }
