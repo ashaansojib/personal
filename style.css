@@ -1,21 +1,26 @@
 body{
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
-    background-color: #f5f5f5;
-    color: #5E5E5E;
+    background-color: #03203C;
+    color: #fff;
 }
 .sidebar{
     padding: 10px;
 }
 .sidebar-widget{
     border-radius: .25rem;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px; */
 }
 .sidebar-title{
     padding: 8px 0;
     font-weight: 700;
     text-transform: uppercase;
+    background-color: #1d48d491;
 }
 .aside-content{
-    background-color: #fff;
+    background-color: #00000036;
+}
+#milestone-content{
+    background-color: #061018d2;
+    margin: 10px;
 }

@@ -20,6 +20,10 @@
             {
                 "id": "05",
                 "name": "Some Important List For React"
+            },
+            {
+                "id": "06",
+                "name": "About map, forEach, find, filter"
             }
         ]
     }

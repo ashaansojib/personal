@@ -1,0 +1,8 @@
+{
+    "data": {
+        "name" : "About map, filter, find, forEach",
+        "checkList": ["About : map JavaScript er ekti method ja kono values ke return korte pare. kono ekta array er ekadhik upadan pete chaile tar upre map use kore ber kora jay. so we can talk that an map method can access any array of object properties...", "About : filter holo kono ekta array of objects er property er man k filter kora ba chekni deya. filtar ekta sorto songghotito kore tar upor vitti kore porer kaj gula chalano jay...", "About : forEach holo map er khalato vai forEach just return korbe na but ata diye jkno array ob object er properties  k dhorano jay. forEach ues kore tar man gulake dhore dynamic way te ues korte para jay...", "About : find kono ekta objects er man ke read kore ekta sorto purno korte hy. condition ta fullfill hole tahle first ai jar shate metch khabe take return korbe..."],
+        "creator": "Ashaduzzaman Sojib",
+        "date": "11 March, 2023"
+    }
+}
