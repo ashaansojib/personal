@@ -3,6 +3,10 @@ const loadData = () =>{
     fetch(url)
     .then(res => res.json())
     .then(data => displayTitle(data.data))
+    // interview data fetching
+    fetch('./interview.json')
+    .then(res => res.json())
+    .then(data => displayQuestion(data.interView))
 }
 const displayTitle = data =>{
     const container = document.getElementById('aside-info');
@@ -39,5 +43,23 @@ const detailsDisplay = details =>{
     <p>${describe ? describe : ''}</p>
     </div>
     `;
+}
+// set interView question and answer on ui
+const displayQuestion = (questions) =>{
+    const titleContainer = document.getElementById("interview-info");
+    questions.map(question =>{
+        titleContainer.innerHTML +=`
+        <li onclick="loadDetails("hello")"><a><i class="fa-solid fa-circle-arrow-right"></i>${question.name}</a></li>
+        `;
+    });
+    // assigment list container
+    const assigment = questions[0].assigmentLink;
+    const assigmentListContainer = document.getElementById("assigment-info");
+    assigment.forEach(assigList =>{
+    assigmentListContainer.innerHTML +=`
+    <li onclick="loadDetails("hello")"><a target="_blank" href="${assigList.url}"><i class="fa-solid fa-circle-arrow-right"></i>${assigList.name}</a></li>
+    
+    `;
+    })
 }
 loadData()

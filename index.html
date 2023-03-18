@@ -16,19 +16,26 @@
     <script src="https://kit.fontawesome.com/07d34bf8e5.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="container mx-auto">
-        <div class="lg:grid lg:grid-cols-2 p-2">
-            <div>
-                <h2>My Notation</h2>
-            </div>
-            <div class="">
-                <ul class="flex justify-between">
-                    <li><a href="">mneu-1</a></li>
-                    <li><a href="">mneu-2</a></li>
-                    <li><a href="">mneu-3</a></li>
-                    <li><a href="">mneu-4</a></li>
-                    <li><a href="">mneu-5</a></li>
-                </ul>
+    <header class="">
+        <div class="container mx-auto">
+            <div class="lg:grid lg:grid-cols-2 p-2 items-center h-16">
+                <div>
+                    <h2 class="text-2xl font-semibold uppercase">My Notation</h2>
+                </div>
+                <div class="">
+                    <ul class="flex justify-around items-center font-semibold">
+                        <li><a href="">Projects</a></li>
+                        <li><a href="">Bug Fixing</a></li>
+                        <li><a href="">Coding</a></li>
+                        <li><a href="">Blogs</a></li>
+                        <li><a href="">Profile</a></li>
+                        <div class="avatar">
+                            <div class="w-12 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                              <img src="./images/mypic.jpg" />
+                            </div>
+                        </div>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
@@ -38,15 +45,41 @@
             <!-- main sidebar -->
             <aside class="sidebar">
                 <!-- single sidebar item -->
-                <div class="sidebar-widget">
+                <div class="sidebar-widget mb-4">
+                    <!-- sidebar area -->
+                    <div class="sidebar-title">
+                        <h2 class="text-center"><i class="fa-solid fa-house-user"></i> ES6 CheckList</h2>
+                    </div>
+                    <!-- sidebar content -->
+                    <div class="aside-content">
+                        <ul id="aside-info" class="menu">
+                            <!-- all module inportant topic -->
+                        </ul>
+                    </div>
+                </div>
+                <!-- single sidebar item -->
+                <div class="sidebar-widget mb-4">
+                    <!-- sidebar area -->
+                    <div class="sidebar-title">
+                        <h2 class="text-center"><i class="fa-solid fa-house-user"></i> InterView Question</h2>
+                    </div>
+                    <!-- sidebar content -->
+                    <div class="aside-content">
+                        <ul id="interview-info" class="menu">
+                        <!-- all important interview question -->
+                        </ul>
+                    </div>
+                </div>
+                <!-- single sidebar item -->
+                <div class="sidebar-widget mb-4">
                     <!-- sidebar area -->
                     <div class="sidebar-title">
                         <h2 class="text-center"><i class="fa-solid fa-house-user"></i> Assigment List</h2>
                     </div>
                     <!-- sidebar content -->
                     <div class="aside-content">
-                        <ul id="aside-info" class="menu">
-
+                        <ul id="assigment-info" class="menu">
+                            <!-- assigment link listing here -->
                         </ul>
                     </div>
                 </div>
@@ -59,9 +92,21 @@
                         
                     </div>
                 </div>
+                <!-- single content items -->
+                <div>
+                    <div>
+                        this is postion
+                    </div>
+                </div>
             </div>
         </div>
     </main>
+    <!-- footer -->
+    <footer class="bg-neutral-900">
+        <div class="container mx-auto">
+            <h2 class="p-2 text-center font-semibold text-2xl">Created By Sojib | All Right Are Reserevd in Bangladesh</h2>
+        </div>
+    </footer>
     <!-- script file connect -->
     <script src="app.js"></script>
     <script src="mileston-seven.js"></script>

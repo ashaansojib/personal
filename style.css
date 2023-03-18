@@ -4,6 +4,7 @@ body{
     background-color: #03203C;
     color: #fff;
 }
+/* aside bar and main content area css */
 .sidebar{
     padding: 10px;
 }
@@ -23,4 +24,8 @@ body{
 #milestone-content{
     background-color: #061018d2;
     margin: 10px;
+}
+/* header css */
+header{
+    background-color: #1F4287;
 }
