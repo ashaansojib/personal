@@ -7,6 +7,8 @@ body{
 /* aside bar and main content area css */
 .sidebar{
     padding: 10px;
+    position: sticky;
+    top: 30px;
 }
 .sidebar-widget{
     border-radius: .25rem;

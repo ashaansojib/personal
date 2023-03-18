@@ -27,7 +27,7 @@ const detailsDisplay = details =>{
     const container = document.getElementById("milestone-content");
     container.textContent = '';
     const list = details.checkList;
-    const checkList = list?.map(list => `<li class="py-2"><i class="fa-solid fa-share"></i> ${list}</li>`).join(' ');
+    const checkList = list?.map(list => `<li class="py-2"><i class="fa-solid text-blue-700 fa-share"></i> ${list}</li>`).join(' ');
     const {creator, date, name, describe, info} = details;
     container.innerHTML += `
     <div class="flex justify-between p-2">
@@ -58,8 +58,28 @@ const displayQuestion = (questions) =>{
     assigment.forEach(assigList =>{
     assigmentListContainer.innerHTML +=`
     <li onclick="loadDetails("hello")"><a target="_blank" href="${assigList.url}"><i class="fa-solid fa-circle-arrow-right"></i>${assigList.name}</a></li>
-    
     `;
+    });
+    // some project card show on 
+    const projectCard = document.getElementById("project-card");
+    assigment.forEach(card => {
+        projectCard.innerHTML += `
+        <div class="card m-4 shadow-xl">
+        <figure><img class="h-60 w-full" src="${card.img_url}" alt="Shoes" /></figure>
+        <div class="card-body">
+        <h2 class="card-title">
+          ${card.name}
+          <div class="badge badge-secondary">NEW</div>
+        </h2>
+        <div class="card-actions justify-center">
+          <div class="btn">
+          <a href="${card.url}">PreView</a>
+          </div>
+        </div>
+        </div>
+        </div>
+        `;
     })
+
 }
 loadData()

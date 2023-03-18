@@ -2,15 +2,18 @@
     "interView": [
         {
             "name": "What is JavaScript Event Loop?",
+            "img_url": "./images/card/assigment-1.png",
             "info": "JavaScript event loop is a method that can run ascyncronus way.",
             "assigmentLink": [
                 {
                     "name": "MileStone-1: HTML Assigment",
-                    "url": "https://ashaansojib.github.io/html-assigment/"
+                    "url": "https://ashaansojib.github.io/html-assigment/",
+                    "img_url": "./images/card/assigment-1.png"
                 },
                 {
                     "name": "MileStone-2: Plane CSS Assigment",
-                    "url": "https://ashaansojib.github.io/responsive-assigment/"
+                    "url": "https://ashaansojib.github.io/responsive-assigment/",
+                    "img_url": "./images/card/assigment-2.png"
                 },
                 {
                     "name": "MileStone-3: Css FrameWork Assigment",
