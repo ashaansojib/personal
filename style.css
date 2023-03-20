@@ -6,6 +6,9 @@ body{
 }
 /* aside bar and main content area css */
 .sidebar{
+    margin-top: 10px;
+    background-color: #fff;
+    color: #1F4287;
     padding: 10px;
     position: sticky;
     top: 30px;
@@ -20,9 +23,7 @@ body{
     text-transform: uppercase;
     background-color: #1d48d491;
 }
-.aside-content{
-    background-color: #00000036;
-}
+
 #milestone-content{
     background-color: #061018d2;
     margin: 10px;

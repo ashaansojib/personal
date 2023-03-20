@@ -12,7 +12,7 @@ const displayTitle = data =>{
     const container = document.getElementById('aside-info');
     data.outline.forEach(singleItem =>{
         container.innerHTML += `
-        <li onclick="loadDetails('${singleItem.id}')"><a><i class="fa-solid fa-circle-arrow-right"></i>${singleItem.name}</a></li>
+        <li class="cursor-pointer my-1" onclick="loadDetails('${singleItem.id}')"><a><i class="fa-solid fa-circle-arrow-right"></i>${singleItem.name}</a></li>
     `;
     });
 }
@@ -49,7 +49,7 @@ const displayQuestion = (questions) =>{
     const titleContainer = document.getElementById("interview-info");
     questions.map(question =>{
         titleContainer.innerHTML +=`
-        <li onclick="loadDetails("hello")"><a><i class="fa-solid fa-circle-arrow-right"></i>${question.name}</a></li>
+        <li class="cursor-pointer my-1" onclick="loadDetails("hello")"><a><i class="fa-solid fa-circle-arrow-right"></i>${question.name}</a></li>
         `;
     });
     // assigment list container
@@ -57,7 +57,7 @@ const displayQuestion = (questions) =>{
     const assigmentListContainer = document.getElementById("assigment-info");
     assigment.forEach(assigList =>{
     assigmentListContainer.innerHTML +=`
-    <li onclick="loadDetails("hello")"><a target="_blank" href="${assigList.url}"><i class="fa-solid fa-circle-arrow-right"></i>${assigList.name}</a></li>
+    <li class="cursor-pointer my-1" onclick="loadDetails("hello")"><a target="_blank" href="${assigList.url}"><i class="fa-solid fa-circle-arrow-right"></i>${assigList.name}</a></li>
     `;
     });
     // some project card show on 
