@@ -44,6 +44,22 @@
         {
             "name": "Difference between localStorage & sessionStorage?",
             "info": "localStorage & sessionStorage working same way on the browser"
+        },
+        {
+            "name": "What are the components in react?",
+            "info": ""
+        },
+        {
+            "name": "What do you mean by SPA?",
+            "info": ""
+        },
+        {
+            "name": "Examples of SPA, MAP.",
+            "info": ""
+        },
+        {
+            "name": "What is the best between SPA and MPA?",
+            "info": ""
         }
     ]
 }
