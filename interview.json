@@ -47,19 +47,19 @@
         },
         {
             "name": "What are the components in react?",
-            "info": ""
+            "info": "In React, components are the building blocks of a user interface. They are essentially independent, reusable pieces of code that define how a part of the user interface should appear and behave.There are two main types of components in React:Functional Components: Also called stateless components, these are typically defined as JavaScript functions that return a JSX element. They are simple and fast to render, and are used for presenting data or for rendering static user interface elements. Class Components: Also called stateful components, these are JavaScript classes that extend the React.Component class. They are used when a component needs to manage its own state or has complex logic that requires lifecycle methods. Class components have a render method that returns a JSX element."
         },
         {
             "name": "What do you mean by SPA?",
-            "info": ""
+            "info": "SPA stands for Single Page Application, which is a type of web application that loads and runs inside a single web page or view, without requiring a full page reload when the user interacts with the application. In an SPA, the user interface is generally created dynamically by JavaScript, which interacts with a backend server through APIs or web services to fetch or submit data.The primary advantage of SPAs is that they provide a smoother, more seamless user experience compared to traditional multi-page web applications, since they can update and refresh content dynamically without the need for a full page reload. SPAs also offer better performance and speed, since they load all required resources upfront, and can make use of caching and other optimization techniques to minimize the need for additional server requests."
         },
         {
             "name": "Examples of SPA, MAP.",
-            "info": ""
+            "info": "SPA example: Gmail, Trello and Twiter. MPA example: amaozon, blog site etc."
         },
         {
             "name": "What is the best between SPA and MPA?",
-            "info": ""
+            "info": "The choice between MPA and SPA depends on the specific requirements of your application. MPA is better suited for applications that require quick initial load times, static content, and minimal dynamic user interactions. It is also a good choice for applications that require complex server-side processing. On the other hand, SPA is better suited for applications that require a high level of interactivity, a smooth user experience, and frequent updates to the user interface without page reloads. It is also well-suited for mobile applications and for applications that have a smaller code base. So, it ultimately depends on your specific requirements and the nature of your application."
         }
     ]
 }

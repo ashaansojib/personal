@@ -1,3 +1,5 @@
+// default area declaration
+const container = document.getElementById("milestone-content");
 const loadData = () =>{
     const url = `./milestone-7/milestone.json`
     fetch(url)
@@ -8,6 +10,7 @@ const loadData = () =>{
     .then(res => res.json())
     .then(data => displayQuestion(data.interView))
 }
+// here the display all title on the sidebar
 const displayTitle = data =>{
     const container = document.getElementById('aside-info');
     data.outline.forEach(singleItem =>{
@@ -16,6 +19,7 @@ const displayTitle = data =>{
     `;
     });
 }
+// load different topic by id
 const loadDetails = id =>{
     const url = `./milestone-7/topic-${id}.json`
     fetch(url)
@@ -24,7 +28,7 @@ const loadDetails = id =>{
 }
 const detailsDisplay = details =>{
     // console.log(details)
-    const container = document.getElementById("milestone-content");
+    
     container.textContent = '';
     const list = details.checkList;
     const checkList = list?.map(list => `<li class="py-2"><i class="fa-solid text-blue-700 fa-share"></i> ${list}</li>`).join(' ');
@@ -49,7 +53,7 @@ const displayQuestion = (questions) =>{
     const titleContainer = document.getElementById("interview-info");
     questions.map(question =>{
         titleContainer.innerHTML +=`
-        <li class="cursor-pointer my-1" onclick="loadDetails("hello")"><a><i class="fa-solid fa-circle-arrow-right"></i>${question.name}</a></li>
+        <li class="cursor-pointer my-1" onclick="loadQuestionAns('${question.info}', '${question.name}')"><a><i class="fa-solid fa-circle-arrow-right"></i>${question.name}</a></li>
         `;
     });
     // assigment list container
@@ -82,4 +86,13 @@ const displayQuestion = (questions) =>{
     })
 
 }
+    // click to display interview queestion details
+    const loadQuestionAns = (data, name) =>{
+        container.innerHTML = `
+        <div class="p-2">
+        <h2 class="sidebar-title">${name}</h2>
+        <p class="text-xl">${data}</p>
+        </div>
+        `;
+        }
 loadData()
