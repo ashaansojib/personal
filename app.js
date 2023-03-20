@@ -10,3 +10,11 @@ content bg and shadow=
 background-color: #ffffff;
     box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
 */
+
+const spinnerContainer = document.getElementById("loader");
+document.getElementById("start").addEventListener('click', function(){
+    spinnerContainer.classList.remove("hidden");
+})
+document.getElementById("stop").addEventListener('click', function(){
+    spinnerContainer.classList.add("hidden");
+})
