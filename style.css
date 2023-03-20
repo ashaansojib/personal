@@ -1,9 +1,19 @@
 body{
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'Poppins', sans-serif;
     background-color: #03203C;
     color: #fff;
 }
+/* editable scroll bar */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #03203C;
+}
+::-webkit-scrollbar-thumb {
+    background: #061018d2;
+  }
 /* aside bar and main content area css */
 .sidebar{
     margin-top: 10px;
