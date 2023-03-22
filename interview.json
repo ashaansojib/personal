@@ -17,23 +17,28 @@
                 },
                 {
                     "name": "MileStone-3: Css FrameWork Assigment",
-                    "url": "https://tangerine-chebakia-3eb192.netlify.app/"
+                    "url": "https://tangerine-chebakia-3eb192.netlify.app/",
+                    "img_url": "./images/card/assigment-3.png"
                 },
                 {
                     "name": "MileStone-4: Row JavaScript Assigment",
-                    "url": "https://web.programming-hero.com/web-7/assignment/web-7-assignment-4"
+                    "url": "https://web.programming-hero.com/web-7/assignment/web-7-assignment-4",
+                    "img_url": "./images/card/assigment-4.png"
                 },
                 {
                     "name": "MileStone-5: JavaScript Integrated & Calculation",
-                    "url": "https://charming-cascaron-e12ad6.netlify.app/"
+                    "url": "https://charming-cascaron-e12ad6.netlify.app/",
+                    "img_url": "./images/card/assigment-5.png"
                 },
                 {
                     "name": "MileStone-6: ES6 with Intermadiate JavaScript",
-                    "url": "https://teal-biscuit-792e6a.netlify.app/index.html"
+                    "url": "https://teal-biscuit-792e6a.netlify.app/index.html",
+                    "img_url": "./images/card/assigment-6.png"
                 },
                 {
                     "name": "Browser & debug with JavaScript",
-                    "url": "https://vocal-cocada-23a618.netlify.app/"
+                    "url": "https://vocal-cocada-23a618.netlify.app/",
+                    "img_url": "./images/card/assigment-7.png"
                 }
             ]
         },
